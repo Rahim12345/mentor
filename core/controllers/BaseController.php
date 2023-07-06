@@ -32,6 +32,10 @@ if ( isset($_GET['page']) )
     {
         include 'TestController.php';
     }
+    else
+    {
+        include 'ErrorController.php';
+    }
 }
 else
 {
