@@ -10,7 +10,7 @@
             <ul>
                 <li><a class="<?php echo !isset($_GET['page']) ? 'active' : '' ?>" href="<?php echo APP_URL; ?>">Əsas səhifə</a></li>
                 <li><a  class="<?php echo isset($_GET['page']) && $_GET['page'] == 'haqqimizda' ? 'active' : '' ?>" href="<?php echo APP_URL; ?>?page=haqqimizda">Haqqımızda</a></li>
-                <li><a href="courses.html">Courses</a></li>
+                <li><a  class="<?php echo isset($_GET['page']) && $_GET['page'] == 'kurslar' ? 'active' : '' ?>" href="<?php echo APP_URL; ?>?page=kurslar">Kurslar</a></li>
                 <li><a href="trainers.html">Trainers</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="pricing.html">Pricing</a></li>

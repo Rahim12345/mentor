@@ -131,6 +131,7 @@ $courses = [
     'title'=> ['title_1'=>'COURSES', 'title_2'=>'POPULAR COURSES'],
     'elements' => [
         [
+            'id'=>1,
             'src'=>'assets/img/course-1.jpg',
             'category'=>'Web Development',
             'price'=>169,
@@ -142,6 +143,7 @@ $courses = [
             'like'=>65,
         ],
         [
+            'id'=>2,
             'src'=>'assets/img/course-2.jpg',
             'category'=>'Marketing',
             'price'=>250,
@@ -153,6 +155,7 @@ $courses = [
             'like'=>42,
         ],
         [
+            'id'=>3,
             'src'=>'assets/img/course-3.jpg',
             'category'=>'Content',
             'price'=>180,

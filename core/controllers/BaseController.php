@@ -21,6 +21,14 @@ if ( isset($_GET['page']) )
     {
         include 'AboutController.php';
     }
+    elseif ($page == 'kurslar' && !isset($_GET['id']))
+    {
+        include 'KursController.php';
+    }
+    elseif ($page == 'kurslar' && isset($_GET['id']))
+    {
+        include 'KursHaqqindaController.php';
+    }
     elseif ($page == 'elaqe')
     {
         $page_title             = 'Əlaqə';
