@@ -10,5 +10,20 @@ function view(string $path) :string
 {
     return 'views/' . $path . '.php';
 }
- 
- 
+
+function session($key = '',$value = '')
+{
+    if ( $key == '')
+    {
+        print_r($_SESSION);
+
+        return ;
+    }
+
+    if ( $value == '' )
+    {
+        return $_SESSION[$key];
+    }
+
+    return $_SESSION[$key] = $value;
+}

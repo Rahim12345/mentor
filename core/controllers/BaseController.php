@@ -29,6 +29,10 @@ if ( isset($_GET['page']) )
     {
         include 'KursHaqqindaController.php';
     }
+    elseif ($page == 'trainers')
+    {
+        include 'TrainersController.php';
+    }
     elseif ($page == 'elaqe')
     {
         $page_title             = 'Əlaqə';
