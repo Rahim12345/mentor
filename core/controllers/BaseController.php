@@ -40,6 +40,14 @@ if ( isset($_GET['page']) )
         $breadcrumbs_content    = 'B2B GÖRÜŞÜN GÜCÜNƏ İNANIRIQ';
         $content                = view('pages/contact');
     }
+    elseif ($page == 'letter-converter')
+    {
+        include 'LetterConverterController.php';
+    }
+    elseif ($page == 'exercise-preparing')
+    {
+        include 'ExercisePreparingController.php';
+    }
     elseif ($page == 'test')
     {
         include 'TestController.php';

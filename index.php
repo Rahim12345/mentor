@@ -2,22 +2,9 @@
 declare(strict_types=1);
 session_start(); // session baslatmaq
 
-//$_SESSION['test2'] = 'alma2'; // session yaratmaq
-//
-//unset($_SESSION["test2"]); // session unutmaq
-//
-//session_unset(); // session bütünlünlükdə unutmaq
-//
-//print_r($_SESSION);
-
-//die();
 include 'core/const/main.php';
 include 'core/helpers/main.php';
 include 'core/controllers/BaseController.php';
-
-echo session('test4','value4');
-
-die();
 ?>
 <!DOCTYPE html>
 <html lang="en">

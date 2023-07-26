@@ -8,7 +8,7 @@
 
 function view(string $path) :string
 {
-    return 'views/' . $path . '.php';
+    return $_SERVER['DOCUMENT_ROOT'].'/views/' . $path . '.php';
 }
 
 function session($key = '',$value = '')
