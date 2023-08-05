@@ -48,6 +48,10 @@ if ( isset($_GET['page']) )
     {
         include 'ExercisePreparingController.php';
     }
+    elseif ($page == 'sade-ededler')
+    {
+        include 'SadeEdedlerController.php';
+    }
     elseif ($page == 'test')
     {
         include 'TestController.php';
